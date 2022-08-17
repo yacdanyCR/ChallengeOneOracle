@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge One Encriptador</title>
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo alura.svg" alt="Logo Alura">
+    </header>
+    <main>
+        <section class="encriptar">
+            <textarea id="introducir-texto" class="textarea" type="mensaje" cols="50" rows="10"
+                placeholder="Ingrese el texto aquí"></textarea>
+            <div class="alerta">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="btn-conteiner">
+                <button id="btn1" class="btn1">Encriptar!</button>
+                <button id="btn2" class="btn2">Desencriptar!</button>
+                </dSv>
+        </section>
+        <section class="tablero">
+            <div id="conteiner-resultado">
+                <h2 id="titulo-resultado"></h2>
+            </div>
+            <div id="toy" class="conteinerImg">
+                <img src="img/Muñeco.svg" alt="Muñeco">
+                <p class="text1"><strong>Ningún  mensaje fue encontrado</strong></p>
+                <p class="text2">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea id="resultado" readonly></textarea>
+            <button id="btn-copy" class="btnCopy">Copiar</button>
+
+        </section>
+    </main>
+    <footer>
+        <svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-cr" viewBox="0 0 640 480" style="width: 30px;">
+            <g fill-rule="evenodd" stroke-width="1pt">
+                <path fill="#0000b4" d="M0 0h640v480H0z" />
+                <path fill="#fff" d="M0 75.4h640v322.3H0z" />
+                <path fill="#d90000" d="M0 157.7h640v157.7H0z" />
+            </g>
+        </svg>
+        &nbsp;
+        <h3>Yacdany Arguedas Mora</h3>
+    </footer>
+
+    <script src="assets/js/encriptador.js"></script>
+    <script src="assets/js/desencriptador.js"></script>
+    <script src="assets/js/copiar.js"></script>
+</body>
+
+</html>
